@@ -1,14 +1,14 @@
-#SCHEMATIC ENTRY AND SIMULATION OF CMOS INVERTER, CMOS NAND and CMOS NOR USING CADENCE TOOL
+# SCHEMATIC ENTRY AND SIMULATION OF CMOS INVERTER, CMOS NAND and CMOS NOR USING CADENCE TOOL
 
-#AIM:
+# AIM:
 To design and simulate the CMOS inverter and observe the DC and transient responses using cadence tool.
 
-#APPARATUS REQUIRED:
+# APPARATUS REQUIRED:
  
 1.	Laptop with MobaXterm
 2.	Cadence tool
-#PROCEDURE
-#SCHEMATIC ENTRY:
+# PROCEDURE
+# SCHEMATIC ENTRY:
 Creating a new library:
 1.	In the library manager, execute File - New library. The new library form appears.
 2.	In the new library form, type ‘my design lib’ in the name section.
@@ -28,8 +28,8 @@ Adding components to schematic:
 2.	Click on the browse button. This opens up a library browser from which you can select components and the symbol view.
 3.	After you complete the add instance form move your cursor to the schematic window and click left to place a component.
 LIBRARY NAME	CELL NAME
-gpdk045	PMOS
-gpdk045	NMOS
+gpdk045  	PMOS
+gpdk045	    	NMOS
 4.	This is a table of components for building the inverter schematic.
 5.	After entering components, click cancel in the add instance form or press ESC with your cursor in the schematic window.
    
@@ -51,7 +51,7 @@ Adding wires to schematic:
 Saving the design:
 	Click the check and save icon in the schematic editor window observe CIW output for any errors.
 
-BUILDING THE INVERTER TEST DESIGN:
+# BUILDING THE INVERTER TEST DESIGN:
 Creating the inverter test cell view:
 1.	In the CIW or library manager, execute file – new – cell view.
 2.	Setup the newfile as shown below.
@@ -70,7 +70,7 @@ Analog lib	Vdc, gnd	Vdc = 1.8v
 
  ![image](https://github.com/harikaran814/VLSI-LAB-EXP-6/assets/164861651/6830af64-2c36-428f-bbbf-22af157bf979)
 
-#ANALOG SIMULATION WITH SPECTRA:
+# ANALOG SIMULATION WITH SPECTRA:
 Starting the simulation environment:
 1.	In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears.
 Choosing a simulator:
@@ -107,31 +107,33 @@ Running the simulation:
 
 
 
-#CMOS NAND GATE
-#NAND SCHEMATIC
+# CMOS NAND GATE
+
+# NAND SCHEMATIC
 
 ![image](https://github.com/harikaran814/VLSI-LAB-EXP-6/assets/164861651/dedc9bb1-df1b-4f97-be08-61b8e6fa811a)
  
-#NAND TEST CELL VIEW
+# NAND TEST CELL VIEW
 
 ![image](https://github.com/harikaran814/VLSI-LAB-EXP-6/assets/164861651/dda019cf-fceb-4ed2-989f-49c2a778daf2)
  
-#NAND SIMULATION WITH SPECTRA
+# NAND SIMULATION WITH SPECTRA
  
 ![image](https://github.com/harikaran814/VLSI-LAB-EXP-6/assets/164861651/f12a0360-1b7a-4b0d-875a-8e62f59eb953)
 
 
 
-#CMOS NOR GATE
-#NOR SCHEMATIC
+# CMOS NOR GATE
+
+# NOR SCHEMATIC
 
  ![image](https://github.com/harikaran814/VLSI-LAB-EXP-6/assets/164861651/ab974519-6098-4a26-abb8-38c0dba99a6d)
 
-#NOR TEST CELL VIEW
+# NOR TEST CELL VIEW
 
 ![image](https://github.com/harikaran814/VLSI-LAB-EXP-6/assets/164861651/2db988b3-f7a2-40b9-b6b1-8b00626e6289)
 
-#NOR SIMULATION WITH SPECTRA
+# NOR SIMULATION WITH SPECTRA
 
  ![image](https://github.com/harikaran814/VLSI-LAB-EXP-6/assets/164861651/c599d528-5f2d-4867-9e7d-6d40ffed9ec9)
 
